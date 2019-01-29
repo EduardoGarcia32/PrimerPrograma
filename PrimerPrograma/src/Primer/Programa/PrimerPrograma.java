@@ -20,6 +20,7 @@ public class PrimerPrograma {
     public static void main(String[] args) throws IOException {
         int a;
         int b;
+        int c;
         System.out.println("Indique el valor numerico");
         a = Integer.parseInt(entrada.readLine());
         System.out.println("Valor de a = "+ a);
@@ -28,6 +29,10 @@ public class PrimerPrograma {
         b = Integer.parseInt(entrada.readLine());
         System.out.println("Valor de a = "+ b);
         System.out.println("--------------");
+        System.out.println("Indique el valor numerico c");
+        c = Integer.parseInt(entrada.readLine());
+        System.out.println("Valor de a = "+ c);
+        System.out.println("La suma de tres numeros para un resultado");
     }
     
 }
